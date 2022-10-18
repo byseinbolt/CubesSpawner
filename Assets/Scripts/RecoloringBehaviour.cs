@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class RecoloringBehaviour : MonoBehaviour
 {
     [SerializeField] private float _recoloringDuration = 1f;
-    [SerializeField] private float _detentionAfterRecoloring = 2f;
+    [SerializeField] private float _detentionAfterRecoloring = 1f;
 
     private Renderer _renderer;
     private Color _startColor;
